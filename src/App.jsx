@@ -15,8 +15,8 @@ function AppContent() {
       padding: '1rem', 
       width: '100vw'
     }}>
-      <h1>Project Showcase</h1>
-      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <h1>Project Gallery</h1>
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'deeppink'}}>
         <IconButton 
           onClick={toggleTheme}
           sx={{
