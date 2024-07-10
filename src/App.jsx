@@ -13,10 +13,11 @@ function AppContent() {
       display: 'flex', 
       justifyContent: 'space-between', 
       padding: '1rem', 
-      width: '100vw'
+      width: '100vw', 
+      backgroundColor: 'deeppink'
     }}>
       <h1>Project Gallery</h1>
-      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'deeppink'}}>
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <IconButton 
           onClick={toggleTheme}
           sx={{
