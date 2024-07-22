@@ -42,6 +42,17 @@ const projects = [
 			"Utilized HTML Canvas for game graphics and animations, Integrated GSAP for smooth animations and effects, Implemented Tailwind CSS for responsive UI design."
 		],
 	},
+	{
+		id: 5,
+		title: "AI-Powered Financial Application",
+		description: "Developed a financial application that utilizes AI for predictive analytics and automates financial processes. The application features a responsive user interface built with React.js, TypeScript, Vite, and Material UI.",
+		url: "https://github.com/Raghunandan1451/HRAI",
+		list: [
+			"Enhanced efficiency by developing a financial application with a responsive interface using React.js, TypeScript, Vite, and Material UI, improving user load times by 40%.", 
+			"Improved data accuracy by training an AI model for financial predictions, achieving a 90% accuracy rate.",
+			"Streamlined data management by converting Excel outputs to JSON, reducing processing time by 30%."
+		],
+	},
 ];
 
 export default projects;
